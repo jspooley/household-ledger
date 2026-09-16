@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Household Ledger</title>
+    <meta
+      name="description"
+      content="A private household budgeting app. This page explains how Household Ledger uses bank data through Plaid."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --paper: #f4efe6;
+        --ink: #1c1915;
+        --muted: #6b6258;
+        --forest: #2d4a3e;
+        --line: #d9d0c3;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: "Source Sans 3", system-ui, sans-serif;
+        line-height: 1.55;
+      }
+      main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.4rem 4rem; }
+      .mark {
+        font-size: 0.8rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin: 0 0 0.4rem;
+      }
+      h1, h2 {
+        font-family: "Source Serif 4", Georgia, serif;
+        font-weight: 600;
+        color: var(--forest);
+      }
+      h1 { font-size: 2.2rem; line-height: 1.15; margin: 0 0 0.8rem; }
+      h2 { font-size: 1.2rem; margin: 2rem 0 0.5rem; }
+      .lede, .muted { color: var(--muted); }
+      ul { padding-left: 1.2rem; }
+      a { color: var(--forest); }
+      footer {
+        margin-top: 2.5rem;
+        padding-top: 1rem;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="mark">Household Ledger</p>
+      <h1>A private household budgeting app</h1>
+      <p class="lede">
+        Household Ledger helps one household download checking and credit-card activity, classify bills versus
+        discretionary spending, and see remaining cash for the month.
+      </p>
+      <h2>Who this is for</h2>
+      <p>
+        This is a personal application used only by the household that operates it. It is not a public product, marketplace,
+        or service offered to other customers.
+      </p>
+      <h2>Reason for data access</h2>
+      <p>
+        We access account balances and transactions so we can classify recurring bills versus discretionary spending and
+        project remaining cash. Data stays on this household's computer and is not sold.
+      </p>
+      <h2>What data we access</h2>
+      <p>Through Plaid, Household Ledger may receive:</p>
+      <ul>
+        <li>Account names, types, masks, and current balances</li>
+        <li>Transaction dates, descriptions, amounts, and pending status</li>
+        <li>Institution names needed to keep checking and cards identified</li>
+      </ul>
+      <p>We do not request the ability to move money or to initiate payments.</p>
+      <h2>How the data is used</h2>
+      <p>Downloaded activity is used only to:</p>
+      <ul>
+        <li>Show current checking and card balances</li>
+        <li>Identify repeating deposits and bills</li>
+        <li>Track discretionary spending against a household budget</li>
+        <li>Estimate remaining cash for the current month</li>
+      </ul>
+      <h2>Where data is stored</h2>
+      <p>
+        Household Ledger runs on the owner's computer. Account connections and transactions are stored locally on that
+        machine. They are not uploaded to a Household Ledger website or shared with advertisers.
+      </p>
+      <h2>Who data is shared with</h2>
+      <p>
+        Bank-login and account-aggregation are handled by
+        <a href="https://plaid.com/legal/#consumers">Plaid</a> and the financial institutions you choose to connect, such
+        as a credit union or credit-card issuer. Household Ledger does not sell personal or financial data.
+      </p>
+      <h2>Retention and control</h2>
+      <p>
+        Data remains until the household deletes it in the app or disconnects the bank in
+        <a href="https://my.plaid.com/">Plaid Portal</a>. Disconnecting a bank stops future downloads from that
+        institution.
+      </p>
+      <h2>Children</h2>
+      <p>Household Ledger is not directed at children under 13 and is not intended to collect their data.</p>
+      <h2>Contact</h2>
+      <p>
+        Questions about this app or its use of financial data:
+        <a href="mailto:theluckydragon64@gmail.com">theluckydragon64@gmail.com</a>
+      </p>
+      <footer>
+        Last updated September 16, 2026. This page exists so banks and Plaid can identify Household Ledger when you
+        connect your own accounts.
+      </footer>
+    </main>
+  </body>
+</html>
